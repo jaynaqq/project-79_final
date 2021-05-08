@@ -16,7 +16,7 @@ function add_item(){
     meanu_list_arry.sort();
     htmaldata="<section class='cards'>"
     for(var i=0; i<meanu_list_arry.length; i++){
-        htmaldata=htmaldata+'<div class="card">'+'<img src="images/pizzaImg.png"/>'+meanu_list_arry[i]+'</div>'
+        htmaldata=htmaldata+'<div class="card">'+'<img src="pizzaImg.png"/>'+meanu_list_arry[i]+'</div>'
     }
     htmaldata=htmaldata+"</section>"
     document.getElementById("display_addmeanu").innerHTML=htmaldata;
